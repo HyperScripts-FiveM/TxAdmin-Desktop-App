@@ -1,8 +1,14 @@
 # TxAdmin-Desktop-App
 
+## What is this?
+This is just an electron JS app that replicates your txadmin to a desktop app. It's nothing special just something cool I made.
+
+## Requirements 
 To use this app you will need to add your own domain by going to /src/index.js on line two change the URL to yours. To change the app icon replace the logo.png in the src directory with your own.
 
-## Building App
+
+
+## Building The App
 To use this app you need to build the app follow these steps:
 
 ### Step One:
