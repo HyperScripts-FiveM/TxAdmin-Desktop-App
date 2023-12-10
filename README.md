@@ -25,3 +25,8 @@ Navigate to the /out/make folder and there will be a .zip folder in there. It ma
 
 ### Step Five: 
 Thats it! Your done!
+
+
+Please don't claim my work as your own. 
+
+[![Discord Presence](https://lanyard.cnrad.dev/api/906061699562475581)](https://discord.com/users/906061699562475581)
