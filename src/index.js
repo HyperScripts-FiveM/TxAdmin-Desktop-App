@@ -1,4 +1,5 @@
 const { app, BrowserWindow, Menu, Notification, Tray } = require("electron");
+const url = 'http://144.6.98.52:40120'
 function showNotification(NOTIFICATION_TITLE, NOTIFICATION_BODY) {
     new Notification({
         title: NOTIFICATION_TITLE,
@@ -15,7 +16,7 @@ const createWindow = () => {
 			spellcheck: true,
 		},
 	});
-	win.loadURL("http://144.6.98.52:40120");
+	win.loadURL(url);
 };
 
 
@@ -26,7 +27,7 @@ const dockMenu = Menu.buildFromTemplate([
 		click() {
 			
 			const win = new BrowserWindow();
-			win.loadURL("http://144.6.98.52:40120/")
+			win.loadURL(url)
             showNotification("Page Changed", "You are now on the Home Page");
 		},
 	},
@@ -34,7 +35,7 @@ const dockMenu = Menu.buildFromTemplate([
         label: "Players",
 		click() {
 			const win = new BrowserWindow();
-			win.loadURL("http://144.6.98.52:40120/player/list");
+			win.loadURL(url + "/player/list");
             showNotification("Page Changed", "You are now on the Players Page");
 
 		},
@@ -43,7 +44,7 @@ const dockMenu = Menu.buildFromTemplate([
         label: "Live Console",
 		click() {
 			const win = new BrowserWindow();
-			win.loadURL("http://144.6.98.52:40120/console");
+			win.loadURL(url + "/console");
             showNotification("Page Changed", "You are now on the Server Console Page");
 		},
     },
@@ -51,7 +52,7 @@ const dockMenu = Menu.buildFromTemplate([
         label: "Resources",
 		click() {
 			const win = new BrowserWindow();
-			win.loadURL("http://144.6.98.52:40120/resources");
+			win.loadURL(url + "/resources");
             showNotification("Page Changed", "You are now on the Resources Page");
 
 		},
