@@ -29,4 +29,4 @@ Thats it! Your done!
 
 Please don't claim my work as your own. 
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/906061699562475581)](https://discord.com/users/906061699562475581)
+[![Discord Presence](https://lanyard.cnrad.dev/api/906061699562475581?=idleMessage=:Just%Chillin%With%My%Kangaroo!)](https://pribilovic.net)
